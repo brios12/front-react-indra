@@ -6,38 +6,48 @@ function App() {
   return (
     <>
     <h1>My Todo</h1>
-    <div>
+    <div className='padreContenedor'>
       <input type="text" id="newElement" placeholder='Add something to do.' />
-      <button >Save</button>
+      <button className='butSave'>Save</button>
     </div>
     <hr/>
-    <div>
-      <label clasName='elements'>
-        <input type="checkbox" className='item'/>Install Node Js
-        <button className='button'>Button</button>
-        <hr />
-        <input type="checkbox" className='item'/>Install angular CLI
-        <button className='button'>Button</button>
-        <hr />
-        <input type="checkbox" className='item'/>Create new app
-        <button className='button'>Button</button>
-        <hr />
-        <input type="checkbox" className='item'/>Serve app
-        <button className='button'>Button</button>
-        <hr />
-        <input type="checkbox" className='item'/>Develop app
-        <button className='button'>Button</button>
-        <hr />
-        <input type="checkbox" className='item'/>Deploy app
-        <button className='button1'>Button</button>
-      </label>
-      
+    <div className='contenedor'>
+      <input type="checkbox" className='item' />
+      <label for="item1">Install NodeJS</label>
+      <button className='buton'>Summit</button>
     </div>
+    <hr />
+    <div className='contenedor'>
+      <input type="checkbox" className='item' />
+      <label for="item1">Instalar angular CLI</label>
+      <button className='buton'>Summit</button>
+    </div>
+    <hr />
+    <div className='contenedor'>
+      <input type="checkbox" className='item' />
+      <label for="item1">Create new app</label>
+      <button className='buton'>Summit</button>
+    </div>
+    <hr />
+    <div className='contenedor'>
+      <input type="checkbox" className='item' />
+      <label for="item1">Serve app</label>
+      <button className='buton'>Summit</button>
+    </div>
+    <hr />
+    <div className='contenedor'>
+      <input type="checkbox" className='item' />
+      <label for="item1">Develop app</label>
+      <button className='buton'>Summit</button>
+    </div>
+    <hr />
+    <div className='contenedor'>
+      <input type="checkbox" className='item' />
+      <label for="item1">Deploy app</label>
+      <button className='buton'>Summit</button>
+    </div>
+     
     
-    
-
-
-      
     </>
   )
 }
